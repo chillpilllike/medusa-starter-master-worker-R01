@@ -28,7 +28,7 @@
     "@medusajs/framework": "latest",
     "@mikro-orm/core": "5.9.7",
     "@medusajs/core-flows": "latest",
-    "@medusajs/medusa": "develop",
+    "@medusajs/medusa": "2.0.5-preview-20241122180241",
     "@mikro-orm/knex": "5.9.7",
     "@mikro-orm/migrations": "5.9.7",
     "@mikro-orm/postgresql": "5.9.7",
