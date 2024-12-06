@@ -8,7 +8,7 @@ module.exports = defineConfig({
     databaseUrl: process.env.DATABASE_URL,
     redisUrl: process.env.REDIS_URL, // Added redisUrl
     database_extra: {
-      pool: { min: 10, max: 1000 }, // Adjust 'max' based on your needs
+      pool: { min: 10, max: 100 }, // Adjust 'max' based on your needs
     },
     workerMode: process.env.MEDUSA_WORKER_MODE as "shared" | "worker" | "server", // Added workerMode
     http: {
